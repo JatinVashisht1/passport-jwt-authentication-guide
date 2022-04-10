@@ -1,0 +1,26 @@
+{
+  "name": "demojwtapp",
+  "version": "1.0.0",
+  "description": "demo jwt authentication practice app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "jwt",
+    "authentication",
+    "jwt",
+    "authentication",
+    "passport",
+    "jwt"
+  ],
+  "author": "Jatin Vashisht",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "modules": "^0.4.0",
+    "mongoose": "^6.2.10",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  }
+}
