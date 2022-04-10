@@ -19,7 +19,7 @@ npm i --save express mongoose dotenv passport passport-jwt modules jsonwebtoken
 ```
 ### 2. Structure Project
 - Create following folders
-    - config (add passport and database configuration files)
+    - config (to add passport and database configuration files)
     - lib (to add utility file for issuing jwt, password generation, etc. )
     - models (to define our mongoose models)
     - routes (to define routes of our app)
