@@ -11,7 +11,7 @@
 ## Step 0
 ### Initialize project
 - Create an empty folder and initialize an npm project
-    - use `npm init` to create an empty project and `npm init -y` to create the project with default settings
+    - use `npm init` to create an empty project or `npm init -y` to create the project with default settings
 - Install required dependencies
 ```
 npm i --save express mongoose dotenv passport passport-jwt modules
