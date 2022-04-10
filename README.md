@@ -24,4 +24,4 @@ npm i --save express mongoose dotenv passport passport-jwt modules
     - routes (to define routes of our app)
 - Create following files
     - app.js (entry point of our express app)
-    - generateKeypair (will act as simple script to generate public and private keys for our jwt)
+    - generateKeypair.js (will act as simple script to generate public and private keys for our jwt)
