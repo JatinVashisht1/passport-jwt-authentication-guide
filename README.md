@@ -356,7 +356,7 @@ app.listen(port, ()=>{
     console.log(`app listening at http://localhost:${port}`)
 })
 ```
-- no need fear from this large code, let's understand whats happening here
+- no need to fear from this large code, let's understand whats happening here
 - we are firstly requiring `dotenv` package to load the `.env` variables
 - then we are configuring our database and establishing a global connection that can be used in any module with `mongoose.connection` connection
 - after that we are requiring `passport` file defined in the `config` folder and passing the passport object to it
